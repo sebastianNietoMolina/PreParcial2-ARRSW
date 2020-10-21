@@ -1,7 +1,7 @@
 appiclient = (function (){
 
     function getCountries(callback){
-            $.get("http://localhost:8080/stats", function(data){
+            $.get("https://coronavirusars.herokuapp.com/stats", function(data){
                     callback(data);
                 }, 'json');
 
@@ -9,7 +9,7 @@ appiclient = (function (){
 
     function getDataByCountry(name, callback){
 
-        $.get("http://localhost:8080/stats/"+name, function(data){
+        $.get("https://coronavirusars.herokuapp.com/stats/"+name, function(data){
                         callback(data);
                     }, 'json');
 

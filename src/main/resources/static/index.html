@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Cinema bookings</title>
+    <title>CoronaApp</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,7 +13,21 @@
     <script src="js/app.js"></script>
     <link rel="stylesheet" href="/webjars/bootstrap/4.5.2/css/bootstrap.min.css"/>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly&language=ja&region=JP"
+            defer
+    ></script>
+
     <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        #map {
+          height: 60%%;
+        }
+
         table, th, td, tr {
           border: 1px solid black;
           border-collapse: collapse;
