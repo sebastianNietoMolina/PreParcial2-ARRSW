@@ -2,7 +2,7 @@
 
 
 ## _Despliegue en Heroku_ 
-[![Deployed to Heroku](https://coronavirusars.herokuapp.com/)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://coronavirusars.herokuapp.com/)
  ## _Integración continua_ 
  [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)]( https://app.circleci.com/pipelines/github/sebastianNietoMolina/PreParcial2-ARRSW)
 
