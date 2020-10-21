@@ -1,0 +1,5 @@
+edu\eci\arsw\covid\servicio\CovService.class
+edu\eci\arsw\covid\servicio\impl\CovServiceImpl.class
+edu\eci\arsw\covid\Main.class
+edu\eci\arsw\covid\servicio\StatsExecption.class
+edu\eci\arsw\covid\controlador\StatsAPIControllers.class
